@@ -34,6 +34,11 @@ class _TelaloginState extends State<Telalogin> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Icon(
+                  Icons.account_balance_wallet,
+                  color: Colors.orange,
+                  size: MediaQuery.of(context).size.width * 0.25,
+                ),
                 TextField(
                   controller: nomeController,
                   decoration: const InputDecoration(labelText: 'Nome Completo'),
